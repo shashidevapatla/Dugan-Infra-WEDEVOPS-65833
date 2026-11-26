@@ -22,7 +22,7 @@ module "database" {
   databases_count                             = 1
   auto_generate_vm_number                     = true
   instance_administrator_username             = "Administrator"
-  instance_administrator_password             = random_password.local_admin.result
+  instance_administrator_password             = "vMD~WG5ytTr"
   instance_domain_address                     = "om.w-energy.net"
   instance_domain_netbios_name                = "OM"
   instance_default_domain_controller_hostname = "domdc02"

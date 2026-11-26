@@ -2,7 +2,7 @@ locals {
   # w-app-dugan-network. Used by database.tf and outputs.tf so both always point at the same network.
   # TODO(WEDEVOPS-65833): confirm this ID in Horizon (Network > Networks > w-app-dugan-network). Network IDs are
   # normally dashed UUIDs (like the subnet ID in database.tf); this undashed value looks like a project ID.
-  dugan_network_id = "b6ebd9d467b949c484512faadb0d7486"
+  dugan_network_id = "8c3a0ad6-fdd4-4246-a22c-bc87ab313cc9"
 
   vpn_and_mgmt = {
     "P81 - Dallas"         = "131.226.46.230/32"
