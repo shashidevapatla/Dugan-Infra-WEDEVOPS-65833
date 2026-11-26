@@ -1,14 +1,8 @@
 version: 3
 projects:
   - dir: .
-    workspace: prod
+    workspace: nonprod
     autoplan:
       when_modified: ["*.tf"]
       enabled: false
-    workflow: openmetal
-  - dir: .
-    workspace: qa
-    autoplan:
-      when_modified: ["*.tf"]
-      enabled: false
-    workflow: openmetal
+    workflow: openmetal-nonprod
